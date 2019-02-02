@@ -8,8 +8,8 @@ export default class Todo extends Component {
     return (
       <div>
         <PageHeader name='Tarefas' small='cadastro'/>
-        <TodoList />
         <TodoForm />
+        <TodoList />
       </div>
     )
   }

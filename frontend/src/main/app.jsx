@@ -5,7 +5,7 @@ import React from 'react'
 import Menu from '../template/menu'
 import Routes from './routes'
 
-//By function
+//By function, becase does not have state
 export default (props) => (
   <div className='container'>
     <Menu />
